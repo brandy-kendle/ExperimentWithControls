@@ -33,7 +33,7 @@
             <ListBoxItem Content="5"/>
         </ListBox>
         <ComboBox Grid.Column="1" HorizontalAlignment="Left" Height="0" Margin="211.2,83,0,0" Grid.Row="1" VerticalAlignment="Top" Width="2"/>
-        <ComboBox x:Name="readOnlyComboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="10.2,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="readOnlyComboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="10.2,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120" SelectionChanged="readOnlyComboBox_SelectionChanged">
             <ListBoxItem Content="1"/>
             <ListBoxItem Content="2"/>
             <ListBoxItem Content="3"/>
